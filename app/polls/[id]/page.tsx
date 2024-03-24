@@ -86,7 +86,7 @@ export default async function Page({params}: { params: {id: string}}) {
 
     return(
         <>
-            <div className="flex flex-col items-center justify-center min-h-screen py-2">
+            <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-red-300">
                 <main className="flex flex-col items-center justify-center flex-1 px-4 sm:px-20 text-center">
                     <PollVoteForm poll={poll}/>
                 </main>

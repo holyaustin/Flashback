@@ -83,7 +83,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           <meta name="fc:frame:button:2" content="Create your poll">
           <meta name="fc:frame:button:2:action" content="post_redirect">
         </head>
-        <body>
+        <body style="background-color:powderblue;">
           <p>${ results || voted ? `You have already selected an answer. You clicked ${buttonId}` : `Your selection for ${buttonId} has been noted for fid ${fid}.` }</p>
         </body>
       </html>

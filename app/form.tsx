@@ -5,7 +5,9 @@ import {useOptimistic, useRef, useState, useTransition} from "react";
 import {redirectToPolls, savePoll, votePoll} from "./actions";
 import { v4 as uuidv4 } from "uuid";
 import {Poll} from "./types";
-import {useRouter, useSearchParams} from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
+
+import {Dynamic} from "./dynamic";
 
 type PollState = {
   newPoll: Poll;

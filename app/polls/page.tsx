@@ -30,7 +30,9 @@ async function getPolls() {
 export default async function Page() {
     const polls = await getPolls();
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen py-2">
+        
+        
+        <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-green-300">
             <main className="flex flex-col items-center justify-center flex-1 px-4 sm:px-20 text-center">
                 <h1 className="text-lg sm:text-2xl font-bold mb-2">
                     Created Flashback
@@ -54,5 +56,7 @@ export default async function Page() {
                 </Link>
             </main>
         </div>
+
+
     );
 }
