@@ -72,8 +72,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       <!DOCTYPE html>
       <html>
         <head>
-          <title>Vote Recorded</title>
-          <meta property="og:title" content="Vote Recorded">
+          <title>Answer Noted</title>
+          <meta property="of:accepts:xmtp" content="2024-02-01" />
+          <meta property="og:title" content="Answer Noted">
           <meta property="og:image" content="${imageUrl}">
           <meta name="fc:frame" content="vNext">
           <meta name="fc:frame:image" content="${imageUrl}">
@@ -83,7 +84,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           <meta name="fc:frame:button:2:action" content="post_redirect">
         </head>
         <body>
-          <p>${ results || voted ? `You have already voted. You clicked ${buttonId}` : `Your vote for ${buttonId} has been recorded for fid ${fid}.` }</p>
+          <p>${ results || voted ? `You have already selected an answer. You clicked ${buttonId}` : `Your selection for ${buttonId} has been noted for fid ${fid}.` }</p>
         </body>
       </html>
     `);

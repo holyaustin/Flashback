@@ -1,6 +1,6 @@
 # Flashback Frames  app
 
-This is an unusual frame that allow users to request for answers to suffs that happened far back. Friends are expected to crack their memory by selecting the right answer to the question.
+This is an unusual frame that allow users to request for answers to stuffs that happened far back. Friends are expected to crack their memory by selecting the right answer to the question.
 
 A example Poll app using [Farcaster Frames](https://warpcast.notion.site/Farcaster-Frames-4bd47fe97dc74a42a48d3a234636d8c5). 
 
